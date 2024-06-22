@@ -1,8 +1,4 @@
---[[
-	ui-engine-v2
-	version 1.3a
-	by Singularity (V3rm @ King Singularity) (Discord @ Singularity#5490)
---]]
+local imgui = {}
 
 local ui_options = {
 	main_color = Color3.fromRGB(41, 74, 122),
@@ -2021,3 +2017,4 @@ function library:AddWindow(title, options)
 
 	return window_data, Window
 end
+return imgui
