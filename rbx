@@ -1,5 +1,4 @@
-local imgui = {}
-
+local dashy {}
 local ui_options = {
 	main_color = Color3.fromRGB(41, 74, 122),
 	min_size = Vector2.new(400, 300),
@@ -2017,4 +2016,4 @@ function library:AddWindow(title, options)
 
 	return window_data, Window
 end
-return imgui
+return dashy
