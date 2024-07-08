@@ -2705,5 +2705,9 @@ end
 		end
 	end
 
-	return window_data, Window, library 
+	return window_data, Window
+end
+return library
+end
+return imgui
 end
